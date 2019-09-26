@@ -7,6 +7,7 @@
     <title>Media Queries Afternoon</title>
     <script async src="https://kit.fontawesome.com/4bf413a46a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
+    <script src="script.js"> </script>
 </head>
 <body>
     <header>
@@ -21,14 +22,14 @@
                         <li>Team</li>
                         <li>Contact</li>
                         <div class="menu-button">
-                            <i>Menu</i>
+                            <div>Menu</div>
                             <i onclick="clickHamburger()" 
                             class="fas fa-bars fa-2x"></i>
                         </div>
                     </nav>
          </div>
          <div id="dropdown" class="dropdown hide">
-             <div class="container">
+             <div class="dropdown-menu">
                  <li>Services</li>
                  <li>Portfolio</li>
                  <li>About</li>
@@ -37,11 +38,12 @@
              </div>
          </div>
     </header>
-        <div class="banner">
-            <h3>Welcome To Our Studio!</h3>
-            <h1>IT'S NICE TO MEET YOU</h1>
-            <button>TELL ME MORE</button>
+        <div class="banner-parent">
+            <div class="banner">
+                <h3>Welcome To Our Studio!</h3>
+                <h1>IT'S NICE TO MEET YOU</h1>
+                <button>TELL ME MORE</button>
+            </div>
         </div>
-            
 </body>
 </html>
